@@ -5,4 +5,7 @@ export class Calculo {
     subtract(a, b) {
         return a - b;
     }
+    prod(a, b) {
+        return a * b;
+    }
 }
