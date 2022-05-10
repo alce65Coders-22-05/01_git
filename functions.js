@@ -1,6 +1,6 @@
 // Funciones
 
-const add = (a, b) => a + b;
+const add = (a = 0, b = 0) => a + b;
 const subtract = (a = 0, b = 0) => {
     return a - b;
 };
