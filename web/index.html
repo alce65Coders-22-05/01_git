@@ -14,7 +14,7 @@
     <body>
         <header>
             <hgroup>
-                <h1>HTML Tags</h1>
+                <h1 style="color:rgb(224, 225, 236)">HTML Tags</h1>
                 <h2>Ejemplos de las principales etiquetas</h2>
             </hgroup>
             <nav>
@@ -27,6 +27,7 @@
             </nav>
         </header>
         <main>
+            <dialog>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, deserunt deleniti possimus minima ab reiciendis dicta. Nulla quas corporis ad nostrum facere explicabo tempora? Quas omnis recusandae voluptates debitis voluptas!</dialog>
             <section>
                 <header>
                     <h2>Sectioning</h2>
@@ -87,13 +88,46 @@
                 height="315"
                 src="https://www.youtube.com/embed/sVFocedf-iU"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
             ></iframe>
         </aside>
+        <form action="" method="get">
+            <div>
+                <label for="user">User</label>
+                <input
+                    minlength="3"
+                    type="text"
+                    name="user"
+                    id="user"
+                    placeholder="User name"
+                />
+            </div>
+            <div>
+                <label for="isOk">Estas deacuerdo ...</label>
+                <input type="checkbox" name="isOk" id="isOk" required />
+            </div>
+            <div>
+                <input type="radio" name="turno" id="" value="M"/>M
+                <input type="radio" name="turno" id="" value="T"/>T
+            <div>
+                <select name="curso" id="">
+                    <option value=""></option>
+                    <option value="A">Angular</option>
+                    <option value="R">React</option>
+                </select>
+            </div>
+            <button>Enviar</button>
+            <details>
+                <summary>Question 1</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ipsum pariatur, temporibus earum ullam sequi unde enim soluta minus incidunt laboriosam adipisci culpa quisquam magnam tenetur laudantium vitae vel repellendus?</p>
+            </details>
+
+        </form>
         <footer>
             <address>ISDI Coders</address>
+            <mis-cosas>Cosas</mis-cosas>
+            <mis-cosas>Más Cosas</mis-cosas>
         </footer>
     </body>
 </html>
