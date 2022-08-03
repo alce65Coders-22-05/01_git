@@ -1,5 +1,5 @@
 {
-    "name": "01-git",
+    "name": "@week01/00-git",
     "version": "1.0.0",
     "description": "Learning Git",
     "main": "index.js",
@@ -8,7 +8,9 @@
     },
     "keywords": [
         "git",
-        "github"
+        "github",
+        "Web",
+        "Front"
     ],
     "author": "Alejandro Cerezo",
     "license": "ISC",
